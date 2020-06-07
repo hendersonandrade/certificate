@@ -120,5 +120,3 @@ function Get-CertInfoTcp {
         Write-Warning $_.Exception.InnerException.Message
     }
 }
-
-Get-CertInfoHttp https://www.caixaseguradora.com.br
